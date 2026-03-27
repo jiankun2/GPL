@@ -1,4 +1,4 @@
-FROM node
+FROM node:25.8.2-bookworm
 
 ADD . /opt/webogram
 WORKDIR /opt/webogram
