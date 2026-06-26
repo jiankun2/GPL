@@ -1,4 +1,4 @@
-FROM node
+FROM node:26.3.1-trixie
 
 ADD . /opt/webogram
 WORKDIR /opt/webogram
